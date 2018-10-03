@@ -109,13 +109,13 @@ void loop() {
 
       luku1 = 0;
       lcd.print(luku1);
-      delay(500);
+      delay(250);
     }
     else if (x==0 && buttonState == HIGH){
       lcd.setCursor(0,1);
       luku1 = luku1 + 1;
       lcd.print(luku1);
-      delay(500);
+      delay(250);
       }
 
     
@@ -140,7 +140,7 @@ void loop() {
 
       luku3 = 0;
       lcd.print(luku3);
-      delay(500);
+      delay(250);
 
     }
     else if (x==2 ){
@@ -148,7 +148,7 @@ void loop() {
 
       luku3 = luku3 + 1;
       lcd.print(luku3);
-      delay(500);
+      delay(250);
 
       }
 
@@ -159,7 +159,7 @@ void loop() {
 
       luku4 = 0;
       lcd.print(luku4);
-      delay(500);
+      delay(250);
 
     }
      else if (x==3){
@@ -167,7 +167,7 @@ void loop() {
 
       luku4 = luku4 + 1;
       lcd.print(luku4);
-      delay(500);
+      delay(250);
 
       }
     }
@@ -189,29 +189,29 @@ void loop() {
  
  //-------Button 2 komennot alkavat!!!!-----------------------------
  if (buttonState2 == HIGH){
-  if (x==0){ //cursori alarivin 1
+  if (x==0 && buttonState2 == HIGH){ //cursori alarivin 1
     x=1;
-    delay(500);
+    delay(250);
 
     }
-  else if (x==1){ //cursori alarivin 2
+  else if (x==1 && buttonState2 == HIGH){ //cursori alarivin 2
     x=2;
-    delay(500);
+    delay(250);
 
     }
-  else if (x==2){ //cursori alarivin 3
+  else if (x==2 && buttonState2 == HIGH){ //cursori alarivin 3
     x=3;
-    delay(500);
+    delay(250);
 
     }
-  else if (x==3){ //cursori alarivin 4
+  else if (x==3 && buttonState2 == HIGH){ //cursori alarivin 4
     x=4;
-    delay(500);
+    delay(250);
 
     }  
-  else if (x==4){ //cursori alarivin 5 *NS "ENTER"
+  else if (x==4 && buttonState2 == HIGH){ //cursori alarivin 5 *NS "ENTER"
     x=0;
-    delay(500);
+    delay(250);
 
     }
   }
@@ -242,7 +242,7 @@ void loop() {
 
   }
 //----------------------------------------------------------------- 
-  if (buttonState3 == HIGH) {
+  if (buttonState3 == HIGH && pin==1234) {
     
       for (int thisNote = 0; thisNote < 8; thisNote++) {
     
@@ -259,11 +259,12 @@ void loop() {
         // stop the tone playing:
         noTone(8);
       }
-      lcd.clear();
+      //lcd.clear();
       lcd.setCursor(0,0);
       //lcd.print("btn 3");
       //delay(250);   
       lcd.display();
+      pin=0;
       delay(100);
             
     // turn LED on:
