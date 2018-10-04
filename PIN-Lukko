@@ -2,7 +2,7 @@
 Ryhmä 1
 Jari Pietikäinen
 Oona Rauhala
-Suvi Rannisto
+Suvi Sihvola
 */
 
 #include <Servo.h >
@@ -10,14 +10,40 @@ Suvi Rannisto
 #include "pitches.h"
 //------------------------------------------------------------
 
+
+// Nope
 int melody[] = {
-  NOTE_C4, NOTE_D4, NOTE_E4, NOTE_F4, NOTE_G4, NOTE_A4, NOTE_B4, NOTE_C5
+  NOTE_A4, NOTE_GS4, NOTE_G4, NOTE_FS4
 };
 
 // note durations: 4 = quarter note, 8 = eighth note, etc.:
-int noteDurations[] = {
-  16, 16, 16, 16, 16, 16, 16, 16
+int melodyDurations[] = {
+  16, 16, 16, 4
 };
+
+
+//Oikein
+int oikein[] = {
+  NOTE_A4, NOTE_E4, NOTE_A4, NOTE_E5, NOTE_CS5, NOTE_A5
+};
+
+// note durations: 4 = quarter note, 8 = eighth note, etc.:
+int oikeinDurations[] = {
+  16, 16, 16, 16, 16, 1
+};
+
+
+//pushButton
+int pushButton[] = {
+  NOTE_A4
+};
+
+// note durations: 4 = quarter note, 8 = eighth note, etc.:
+int pushButtonDurations[] = {
+  16
+};
+
+
 //--------------------------------------------------------------
 
 const int buttonPin = 7;     // ykkös painike pin(7)/ ^ (muuttaa lukua 0-9)
@@ -37,7 +63,7 @@ int servoAngle = 0;   // servo asteen muutos
 int buttonState = 0;  
 int buttonState2 = 0;
 int buttonState3 = 0;
-
+int servostate = 0;
 int luku1 = 0; // kohdan 1,0 luku 0-9 (kun x=0)
 int luku2 = 0; // kohdan 1,1 luku 0-9 (kun x=1)
 int luku3 = 0; // kohdan 1,2 luku 0-9 (kun x=2)
@@ -55,6 +81,7 @@ void setup() {
   lcd.begin(16, 2);
   // Perus viesti ylärivillä:
   lcd.print("Anna Pin:");
+  servo.write(180);
 //--------------------------------------------------------
 
   // merkataan 9g servo OUTPUT:ksi.
@@ -92,7 +119,7 @@ void loop() {
   buttonState = digitalRead(buttonPin);
   buttonState2 = digitalRead(buttonPin2);
   buttonState3 = digitalRead(buttonPin3);
-  
+
   //lcd.setCursor(0,1);
   //lcd.print(luku1);
 //---------------------------------------------------------------
@@ -102,7 +129,14 @@ void loop() {
   
   if (buttonState == HIGH) {
     //lcd.clear();
-    
+    for (int thisNote = 0; thisNote < 1; thisNote++) {
+    int pushButtonDuration = 1000 / pushButtonDurations[thisNote];
+    tone(8, pushButton[thisNote], pushButtonDuration);
+    int pauseBetweenNotes = pushButtonDuration * 1.10;
+    delay(pauseBetweenNotes);
+    noTone(8);
+   }
+
  //--------------0,1---------------------
     if (x==0 && luku1 >=9)  {
       lcd.setCursor(0,1);
@@ -115,6 +149,9 @@ void loop() {
       lcd.setCursor(0,1);
       luku1 = luku1 + 1;
       lcd.print(luku1);
+
+
+      
       delay(250);
       }
 
@@ -130,6 +167,7 @@ void loop() {
       lcd.setCursor(1,1);
       luku2 = luku2 + 1;
       lcd.print(luku2);
+
       delay(500);
       }
 
@@ -148,6 +186,7 @@ void loop() {
 
       luku3 = luku3 + 1;
       lcd.print(luku3);
+
       delay(250);
 
       }
@@ -167,6 +206,8 @@ void loop() {
 
       luku4 = luku4 + 1;
       lcd.print(luku4);
+
+
       delay(250);
 
       }
@@ -189,6 +230,14 @@ void loop() {
  
  //-------Button 2 komennot alkavat!!!!-----------------------------
  if (buttonState2 == HIGH){
+  //
+  for (int thisNote = 0; thisNote < 1; thisNote++) {
+        int pushButtonDuration = 1000 / pushButtonDurations[thisNote];
+        tone(8, pushButton[thisNote], pushButtonDuration);
+        int pauseBetweenNotes = pushButtonDuration * 1.10;
+        delay(pauseBetweenNotes);
+        noTone(8);
+    }
   if (x==0 && buttonState2 == HIGH){ //cursori alarivin 1
     x=1;
     delay(250);
@@ -196,21 +245,25 @@ void loop() {
     }
   else if (x==1 && buttonState2 == HIGH){ //cursori alarivin 2
     x=2;
+
     delay(250);
 
     }
   else if (x==2 && buttonState2 == HIGH){ //cursori alarivin 3
     x=3;
+    
     delay(250);
 
     }
   else if (x==3 && buttonState2 == HIGH){ //cursori alarivin 4
     x=4;
+    
     delay(250);
 
     }  
   else if (x==4 && buttonState2 == HIGH){ //cursori alarivin 5 *NS "ENTER"
     x=0;
+    
     delay(250);
 
     }
@@ -227,12 +280,26 @@ void loop() {
   lcd.print("PIN KOODI OIKEIN");
   lcd.setCursor(0,1);
   lcd.print("!!!!!!!!!!!!!!!!");
-  servo.write(180);
+  luku1=0;
+  luku2=0;
+  luku3=0;
+  luku4=0;
+  pin=7;
   //MOOTTORIN KÄÄNTÖ TÄHÄN!!___------------____
 
 
   
-  }   
+  } 
+  else if (x==4 && buttonState3 == HIGH && pin!=1234){
+    
+  for (int thisNote = 0; thisNote < 4; thisNote++) {
+            int melodyDuration = 1000 / melodyDurations[thisNote];
+            tone(8, melody[thisNote], melodyDuration);
+            int pauseBetweenNotes = melodyDuration * 1.10;
+            delay(pauseBetweenNotes);
+            noTone(8);
+  }
+    }  
 //---------------------------------------------------------------------------------
       
    
@@ -242,19 +309,20 @@ void loop() {
 
   }
 //----------------------------------------------------------------- 
-  if (buttonState3 == HIGH && pin==1234) {
+  if (buttonState3 == HIGH && pin==7 && x==4) {
     
-      for (int thisNote = 0; thisNote < 8; thisNote++) {
+    
+      for (int thisNote = 0; thisNote < 6; thisNote++) {
     
         // to calculate the note duration, take one second divided by the note type.
         //e.g. quarter note = 1000 / 4, eighth note = 1000/8, etc.
-        int noteDuration = 1000 / noteDurations[thisNote];
-        tone(8, melody[thisNote], noteDuration);
+        int oikeinDuration = 1000 / oikeinDurations[thisNote];
+        tone(8, oikein[thisNote], oikeinDuration);
     
         // to distinguish the notes, set a minimum time between them.
         // the note's duration + 30% seems to work well:
         // !!ALUNPERIN KERTOIMENA 1.30!!
-        int pauseBetweenNotes = noteDuration * 1.10;
+        int pauseBetweenNotes = oikeinDuration * 1.10;
         delay(pauseBetweenNotes);
         // stop the tone playing:
         noTone(8);
@@ -265,7 +333,12 @@ void loop() {
       //delay(250);   
       lcd.display();
       pin=0;
-      delay(100);
+      //delay(100);
+      while (buttonState!=HIGH or buttonState2!= HIGH){
+        servo.write(-180);
+        }
+        return;
+
             
     // turn LED on:
     //digitalWrite(servoPin, HIGH);
