@@ -1,0 +1,38 @@
+[ 
+  {
+"outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/e6ab2954-7927-4326-b9db-8adbee512597.jpg",
+"created":1601456956089,
+"id": "3027764721",
+"profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3027764721/acd0b692-04ea-4f0d-a7b9-23599cf38a3f"
+  },
+  {
+"outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/c4308db1-796e-4816-b6ab-24aaf78b5547.jpg",
+"created":1601421883701,
+"id": "3030113767",
+"profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3030113767/37b3768b-494a-4e8f-92ec-bb387df3a6fe"
+  },
+  {
+"outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/7acc873d-275e-4f71-aed4-c6eb5b76a8a3.jpg",
+"created":1601417847952,
+"id": "3031411365",
+"profile_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/354b7b58-32fc-460e-8ca2-e1247765cef2.jpg"
+  },
+  {
+"outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/9142b237-c49c-4eaa-b2be-2c319488de10.jpg",
+"created":1601421883701,
+"id": "3014045671",
+"profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3031051683/05cf425c-d458-41a7-87ed-066a8ce29ba5"
+  },
+  {
+"outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/24c668aa-378c-4f61-a77d-c7b4041ad385.jpg",
+"created":1601421883701,
+"id": "3024650909",
+"profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3024429853/4bac8879-38c7-4d3c-a984-132bb8c046c5"
+  },
+  {
+"outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/d143bdd6-839c-4e0a-9b09-9a2aa4d2cce7.jpg",
+"created":1601421883701,
+"id": "3027373784",
+"profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3032726791/1290ed38-9300-406d-8ba7-2762d9965dc1"
+  }
+]
