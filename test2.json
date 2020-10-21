@@ -22,6 +22,486 @@
 
 "items": [
   {
+            "type": "outfit_card",
+            "outfit_card": {
+                "outfit_id": "dd8578e1-8306-4a12-a8e7-af34cbc4586f",
+                "outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/095915f3-9707-4ac8-ac91-15bc9af51fd8.jpg",
+                "articles": [],
+                "marketplace_items": [
+                    "45f7e074-b408-48ef-9f54-6159f07c132b"
+                ],
+                "is_active": true,
+                "likes": 0,
+                "tags": [
+                    "casual"
+                ],
+                "created": 1603226391005,
+                "created_at": 1603226391005,
+                "user": {
+                    "id": "3034622068",
+                    "name": "annalenahsk",
+                    "profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3034622068/489c0ea9-0739-40e6-a5e1-d247c9361316",
+                    "is_verified": true
+                }
+            }
+        },
+        {
+            "type": "outfit_card",
+            "outfit_card": {
+                "outfit_id": "419b0ad7-6f87-4040-bcc4-d403ca1f69e5",
+                "outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/660e274e-e5b6-42fc-98b9-f8494b8b3e9c.jpg",
+                "articles": [],
+                "marketplace_items": [
+                    "59428bca-d982-4308-a60c-6da2fb7d749e"
+                ],
+                "is_active": true,
+                "likes": 0,
+                "tags": [
+                    "party"
+                ],
+                "created": 1603226247410,
+                "created_at": 1603226247410,
+                "user": {
+                    "id": "3034622068",
+                    "name": "annalenahsk",
+                    "profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3034622068/489c0ea9-0739-40e6-a5e1-d247c9361316",
+                    "is_verified": true
+                }
+            }
+        },
+        {
+            "type": "outfit_card",
+            "outfit_card": {
+                "outfit_id": "a43dd59e-7979-40c8-b1e0-fe6fb470b0c9",
+                "outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/c21c1e27-a3a4-4d69-9359-a893382ed582.jpg",
+                "articles": [],
+                "marketplace_items": [
+                    "c4d550db-d9c8-474a-a381-794dd54bc6d5"
+                ],
+                "is_active": true,
+                "likes": 0,
+                "tags": [
+                    "casual"
+                ],
+                "created": 1603226154255,
+                "created_at": 1603226154255,
+                "user": {
+                    "id": "3034622068",
+                    "name": "annalenahsk",
+                    "profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3034622068/489c0ea9-0739-40e6-a5e1-d247c9361316",
+                    "is_verified": true
+                }
+            }
+        },
+        {
+            "type": "outfit_card",
+            "outfit_card": {
+                "outfit_id": "a51d2784-6802-46b0-82f6-c7ab28dfb1de",
+                "outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/fb5eef15-5f6a-418a-a7a3-94ab3ea1a195.jpg",
+                "articles": [],
+                "marketplace_items": [
+                    "94dbc3bb-171d-4d5c-82f9-ba3f5bd2f21b"
+                ],
+                "is_active": true,
+                "likes": 0,
+                "tags": [
+                    "casual"
+                ],
+                "created": 1603226072605,
+                "created_at": 1603226072605,
+                "user": {
+                    "id": "3034622068",
+                    "name": "annalenahsk",
+                    "profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3034622068/489c0ea9-0739-40e6-a5e1-d247c9361316",
+                    "is_verified": true
+                }
+            }
+        },
+        {
+            "type": "outfit_card",
+            "outfit_card": {
+                "outfit_id": "03a8a365-264c-4794-9775-5431b7ab8cae",
+                "outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/651dbcb8-b4ac-4dab-a472-945b9fc32a59.jpg",
+                "articles": [],
+                "marketplace_items": [
+                    "8ade8c9f-78b1-4c2d-b362-68376cb76055"
+                ],
+                "is_active": true,
+                "likes": 0,
+                "tags": [
+                    "casual"
+                ],
+                "created": 1603225983426,
+                "created_at": 1603225983426,
+                "user": {
+                    "id": "3034622068",
+                    "name": "annalenahsk",
+                    "profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3034622068/489c0ea9-0739-40e6-a5e1-d247c9361316",
+                    "is_verified": true
+                }
+            }
+        },
+        {
+            "type": "outfit_card",
+            "outfit_card": {
+                "outfit_id": "1ed51d19-d777-4176-bc2f-91092c08d8e3",
+                "outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/549d8ea0-52b9-42ad-bf90-aec42e87af71.jpg",
+                "articles": [],
+                "marketplace_items": [
+                    "f76b9b56-23d2-4df7-85e0-ecef103676ed"
+                ],
+                "is_active": true,
+                "likes": 0,
+                "tags": [
+                    "casual"
+                ],
+                "created": 1603225899312,
+                "created_at": 1603225899312,
+                "user": {
+                    "id": "3034622068",
+                    "name": "annalenahsk",
+                    "profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3034622068/489c0ea9-0739-40e6-a5e1-d247c9361316",
+                    "is_verified": true
+                }
+            }
+        },
+        {
+            "type": "outfit_card",
+            "outfit_card": {
+                "outfit_id": "9162ca7c-ec9c-4de4-8377-912fbc107cb3",
+                "outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/bdef83fc-1658-44cc-9608-58f514e3243b.jpg",
+                "articles": [],
+                "marketplace_items": [
+                    "71674e08-86ee-4755-94c4-2e91f9b894e9"
+                ],
+                "is_active": true,
+                "likes": 0,
+                "tags": [
+                    "casual"
+                ],
+                "created": 1603225812468,
+                "created_at": 1603225812468,
+                "user": {
+                    "id": "3034622068",
+                    "name": "annalenahsk",
+                    "profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3034622068/489c0ea9-0739-40e6-a5e1-d247c9361316",
+                    "is_verified": true
+                }
+            }
+        },
+        {
+            "type": "outfit_card",
+            "outfit_card": {
+                "outfit_id": "5238a59e-0af2-4c8e-82e9-6700ab3168fa",
+                "outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/dcd76b46-fe2f-41ee-8f15-5aadf5a52510.jpg",
+                "articles": [],
+                "marketplace_items": [
+                    "aa75dd2d-d065-4d1d-8e84-f1f03e9c159b"
+                ],
+                "is_active": true,
+                "likes": 0,
+                "tags": [
+                    "casual"
+                ],
+                "created": 1603225663243,
+                "created_at": 1603225663243,
+                "user": {
+                    "id": "3034622068",
+                    "name": "annalenahsk",
+                    "profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3034622068/489c0ea9-0739-40e6-a5e1-d247c9361316",
+                    "is_verified": true
+                }
+            }
+        },
+        {
+            "type": "outfit_card",
+            "outfit_card": {
+                "outfit_id": "7b614a1c-7812-4db7-8da0-2d86e4edd46c",
+                "outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/9399f60c-8e4b-416d-898d-5756c4cc0399.jpg",
+                "articles": [],
+                "marketplace_items": [
+                    "cf51d5ac-30b0-4d5b-9391-1db55325a3ba"
+                ],
+                "is_active": true,
+                "likes": 4,
+                "tags": [
+                    "casual"
+                ],
+                "created": 1603225527523,
+                "created_at": 1603225527523,
+                "user": {
+                    "id": "3034622068",
+                    "name": "annalenahsk",
+                    "profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3034622068/489c0ea9-0739-40e6-a5e1-d247c9361316",
+                    "is_verified": true
+                }
+            }
+        },
+        {
+            "type": "outfit_card",
+            "outfit_card": {
+                "outfit_id": "86e647c9-ed6b-4f3d-88ad-d873562f8469",
+                "outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/00587204-ad79-49c3-8316-770be9f08be4.jpg",
+                "articles": [],
+                "marketplace_items": [
+                    "25cd881b-c6af-4f54-af47-7707afff5535"
+                ],
+                "is_active": true,
+                "likes": 0,
+                "tags": [
+                    "outdoor"
+                ],
+                "created": 1603225272812,
+                "created_at": 1603225272812,
+                "user": {
+                    "id": "3034622068",
+                    "name": "annalenahsk",
+                    "profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3034622068/489c0ea9-0739-40e6-a5e1-d247c9361316",
+                    "is_verified": true
+                }
+            }
+        },
+        {
+            "type": "outfit_card",
+            "outfit_card": {
+                "outfit_id": "cd0a0fc0-4465-4d2d-9c50-7d2db3adea60",
+                "outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/c7be52ea-8547-4968-a856-063d5efa1618.jpg",
+                "articles": [],
+                "marketplace_items": [
+                    "4f368cd6-9417-4e41-ba04-9055e368b1f4"
+                ],
+                "is_active": true,
+                "likes": 1,
+                "tags": [
+                    "casual"
+                ],
+                "created": 1603225088323,
+                "created_at": 1603225088323,
+                "user": {
+                    "id": "3034622068",
+                    "name": "annalenahsk",
+                    "profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3034622068/489c0ea9-0739-40e6-a5e1-d247c9361316",
+                    "is_verified": true
+                }
+            }
+        },
+        {
+            "type": "outfit_card",
+            "outfit_card": {
+                "outfit_id": "c7d4caaa-2700-482e-819a-cdda28200933",
+                "outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/38b8f0be-1bad-4636-b6ff-215efbb3febb.jpg",
+                "articles": [],
+                "marketplace_items": [
+                    "07c7b4a0-9222-42bd-9b47-94a61933b9d0"
+                ],
+                "is_active": true,
+                "likes": 0,
+                "tags": [
+                    "casual"
+                ],
+                "created": 1603224988971,
+                "created_at": 1603224988971,
+                "user": {
+                    "id": "3034622068",
+                    "name": "annalenahsk",
+                    "profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3034622068/489c0ea9-0739-40e6-a5e1-d247c9361316",
+                    "is_verified": true
+                }
+            }
+        },
+        {
+            "type": "outfit_card",
+            "outfit_card": {
+                "outfit_id": "d1e26f65-4811-4f4e-9aee-8b548129b344",
+                "outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/b28e85e0-9275-46dc-9523-93d04184ae85.jpg",
+                "articles": [],
+                "marketplace_items": [
+                    "2516c35d-43f0-4343-bcd4-104640cb2c23"
+                ],
+                "is_active": true,
+                "likes": 0,
+                "tags": [
+                    "outdoor"
+                ],
+                "created": 1603224850932,
+                "created_at": 1603224850932,
+                "user": {
+                    "id": "3034622068",
+                    "name": "annalenahsk",
+                    "profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3034622068/489c0ea9-0739-40e6-a5e1-d247c9361316",
+                    "is_verified": true
+                }
+            }
+        },
+        {
+            "type": "outfit_card",
+            "outfit_card": {
+                "outfit_id": "5352b4e8-f12a-492f-a4e7-5b0440323b52",
+                "outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/aaea1778-5cf3-49e9-acf3-3f3ea823d62a.jpg",
+                "articles": [],
+                "marketplace_items": [
+                    "a48930a6-b822-47f9-be2e-62facaeedbf6"
+                ],
+                "is_active": true,
+                "likes": 0,
+                "tags": [
+                    "party"
+                ],
+                "created": 1603224726707,
+                "created_at": 1603224726707,
+                "user": {
+                    "id": "3034622068",
+                    "name": "annalenahsk",
+                    "profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3034622068/489c0ea9-0739-40e6-a5e1-d247c9361316",
+                    "is_verified": true
+                }
+            }
+        },
+        {
+            "type": "outfit_card",
+            "outfit_card": {
+                "outfit_id": "5644a84a-9e0f-4044-bc30-1a0c103751d2",
+                "outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/23522662-7bf8-4358-af7c-87424449537e.jpg",
+                "articles": [],
+                "marketplace_items": [
+                    "dc49b652-051f-46a8-80d9-7ef9bc1cc1db"
+                ],
+                "is_active": true,
+                "likes": 1,
+                "tags": [
+                    "casual"
+                ],
+                "created": 1603224174823,
+                "created_at": 1603224174823,
+                "user": {
+                    "id": "3034622068",
+                    "name": "annalenahsk",
+                    "profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3034622068/489c0ea9-0739-40e6-a5e1-d247c9361316",
+                    "is_verified": true
+                }
+            }
+        },
+        {
+            "type": "outfit_card",
+            "outfit_card": {
+                "outfit_id": "35cc845b-be8e-4ab6-ae04-081e81748fdf",
+                "outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/5d9b4faf-70a6-436c-9a92-dcc0d5d5aa5e.jpg",
+                "articles": [],
+                "marketplace_items": [
+                    "e208c25f-e830-4f07-bf00-dd7ec8609550"
+                ],
+                "is_active": true,
+                "likes": 0,
+                "tags": [
+                    "casual"
+                ],
+                "created": 1603221090300,
+                "created_at": 1603221090300,
+                "user": {
+                    "id": "3031051683",
+                    "name": "minalee96",
+                    "profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3031051683/05cf425c-d458-41a7-87ed-066a8ce29ba5",
+                    "is_verified": true
+                }
+            }
+        },
+        {
+            "type": "outfit_card",
+            "outfit_card": {
+                "outfit_id": "2b5512ee-8f37-434f-ac41-ce11bfe26fbf",
+                "outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/ee809a94-dd84-46f3-9bc7-a6e00b4a005a.jpg",
+                "articles": [],
+                "marketplace_items": [
+                    "dbc66954-d6b2-4657-b52d-ae134b16b540"
+                ],
+                "is_active": true,
+                "likes": 1,
+                "tags": [
+                    "casual"
+                ],
+                "created": 1603218706552,
+                "created_at": 1603218706552,
+                "user": {
+                    "id": "3034622068",
+                    "name": "annalenahsk",
+                    "profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3034622068/489c0ea9-0739-40e6-a5e1-d247c9361316",
+                    "is_verified": true
+                }
+            }
+        },
+        {
+            "type": "outfit_card",
+            "outfit_card": {
+                "outfit_id": "bf856be6-6bc2-47de-9fdb-8c53b23029d8",
+                "outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/0d2a44cb-3ab0-4935-a314-93f7ecafbbb0.jpg",
+                "articles": [],
+                "marketplace_items": [
+                    "c5f377f5-d387-48df-9978-83ef772a32e6"
+                ],
+                "is_active": true,
+                "likes": 0,
+                "tags": [
+                    "outdoor"
+                ],
+                "created": 1603218569449,
+                "created_at": 1603218569449,
+                "user": {
+                    "id": "3034622068",
+                    "name": "annalenahsk",
+                    "profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3034622068/489c0ea9-0739-40e6-a5e1-d247c9361316",
+                    "is_verified": true
+                }
+            }
+        },
+        {
+            "type": "outfit_card",
+            "outfit_card": {
+                "outfit_id": "dcba3a4b-7015-4ca0-aa29-c925e8ca9a0c",
+                "outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/6b4fc8bb-3983-4b9c-9e79-6aa04e0870d1.jpg",
+                "articles": [],
+                "marketplace_items": [
+                    "18cf34b3-738a-4f6c-97d4-56ec5a92c9d7"
+                ],
+                "is_active": true,
+                "likes": 0,
+                "tags": [
+                    "casual"
+                ],
+                "created": 1603210421345,
+                "created_at": 1603210421345,
+                "user": {
+                    "id": "3025374985",
+                    "name": "janalu",
+                    "profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3025374985/8e6c1618-6f1b-47f6-8fea-63eca328e938",
+                    "is_verified": true
+                }
+            }
+        },
+        {
+            "type": "outfit_card",
+            "outfit_card": {
+                "outfit_id": "807fb83a-b38c-4b6f-8660-c1f79850d7d8",
+                "outfit_image": "https://wardrobeservice-outfit-images-prod.s3.eu-central-1.amazonaws.com/3cc138bb-3bcc-4afc-b2d7-5d819e2e1c96.jpg",
+                "articles": [],
+                "marketplace_items": [
+                    "73531df3-574e-44e2-a99f-3914dac1ab06"
+                ],
+                "is_active": true,
+                "likes": 0,
+                "tags": [
+                    "casual"
+                ],
+                "created": 1603210176592,
+                "created_at": 1603210176592,
+                "user": {
+                    "id": "3025374985",
+                    "name": "janalu",
+                    "profile_image": "https://user-avatars-prod.s3.eu-central-1.amazonaws.com/3025374985/8e6c1618-6f1b-47f6-8fea-63eca328e938",
+                    "is_verified": true
+                }
+            }
+        },
+  {
 
 "type": "outfit_card",
 
